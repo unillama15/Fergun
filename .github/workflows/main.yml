@@ -15,3 +15,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fergun-self-hosted" #Must be unique in Heroku
           heroku_email: "aditya.shinde2003@gmail.com"
+          buildpack: "https://github.com/jincod/dotnetcore-buildpack"
